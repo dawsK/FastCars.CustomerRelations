@@ -59,6 +59,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FastCars.Common\FastCars.Common.csproj">
+      <Project>{b22cf462-b63c-41b4-a451-fb304c4571c1}</Project>
+      <Name>FastCars.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FastCars.Events\FastCars.Events.csproj">
       <Project>{FE5E9AEB-7833-4078-8395-04B9269F0BA9}</Project>
       <Name>FastCars.Events</Name>
